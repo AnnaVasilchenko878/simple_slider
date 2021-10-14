@@ -1,0 +1,32 @@
+.slider {
+    width: 1200px;
+    height: 627px;
+    border: 2px solid #000000;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    height: 627px;
+    width: 6000px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.prev {
+    transform: translate(95px, -330px);
+}
+
+.next {
+    transform: translate(1379px, -330px);
+}
